@@ -27,7 +27,7 @@ const SignUp = () => {
           confirm
         }
         console.log(addSignup);
-        fetch('http://localhost:5000/signup', {
+        fetch('https://task-server-alpha.vercel.app/signup', {
           method:"POST",
           headers:{
             'content-type':'application/json'
